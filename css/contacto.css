@@ -1,14 +1,6 @@
 .content-header{
     position: relative;    
 }
-/* header{
-    height: 350px;
-    background: url(../img/contactenos.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;    
-} */
 .content-header{
     height: 350px;
 }
@@ -25,7 +17,7 @@
     color: #000;    
     font-size: 45px;
     font-style: italic;    
-    border-bottom: 3px solid #FF2418;
+    border-bottom: 3px solid var(--color-hover);
 }
 .contenedor{
     width: 100%;
@@ -63,11 +55,11 @@
     font-size: 35px;        
 }
 .wasap{
-    color: #ef5350;
+    color: #5ce1b9;
     font-size: 35px;        
 }
 .email{
-    color: #5ce1b9;
+    color: #ef5350;
     font-size: 35px;        
 }
 /*ABOUT*/
