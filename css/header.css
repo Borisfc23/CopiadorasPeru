@@ -161,7 +161,7 @@ nav{
         margin-top: 90px;                
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 355px){
     .cont_header-user span:nth-child(1){
         display: none;
     }
