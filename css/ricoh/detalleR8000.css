@@ -58,13 +58,13 @@ ul li{
     border-radius: 5px;
     display: inline-block;
     background: #22c45f;    
-    width: 50%;
+    width: 60%;
     padding: 8px 15px;
     color: var(--color-btn);
     margin: 5px auto;
 }
 .cont{
-    width: 50%;
+    width: 60%;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
