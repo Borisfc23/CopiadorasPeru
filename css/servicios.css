@@ -1,26 +1,44 @@
 .enlaces-header a:nth-child(2){
     color: var(--color-hover);
 }
-.cont-service{
-    display: flex;    
-    flex-direction: column;
-    width:100%;
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 .service{
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;    
+}
+#sec1{
+    background-image: url(../img/reparacion.jpg);
+}
+#sec2{
+    background-image: url(../img/venta.jpg);
+}
+#sec3{
+    background-image: url(../img/alquiler.jpg);
 }
 .service-info{    
-    line-height: 30px;
-    margin-left: 20px;
-    width: 28%;
-    padding: 25px 40px;
+    margin-top: 85px;
+    line-height: 28px;
+    margin-left: 8%;
+    width: 30%;
+    min-width: 300px;
+    padding: 20px 35px;
     position: absolute;    
-    background: var(--main-color);    
+    background: var(--main-color);        
 }
+#sec2 .service-info, #sec3 .service-info{    
+    margin-top: 20px;
+}   
 .service-info h2{
     margin-bottom: 15px;
     text-align: center;    
@@ -30,9 +48,13 @@
     margin: 10px auto;
     text-align: center;    
 }
+ul li{
+    font-weight: 300;
+    margin-left: 15px;
+}
 .wsp{    
     background: #22c45f;    
-    width: 49%;
+    width: 100%;
     padding: 8px 15px;
     color: var(--color-btn)    
 }
