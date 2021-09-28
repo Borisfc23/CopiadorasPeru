@@ -9,6 +9,7 @@ body{
     list-style: none; 
     text-decoration: none; 
     transition: all .4s ease-in-out; 
+    scroll-behavior: smooth;
 }
 :root{
     --main-color: #fff;
